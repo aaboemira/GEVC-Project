@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   	 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" type="text/css" href="css/nav-style.css">
+
+	<title>GEVC Challenge</title>
+	<style type="text/css">
+	 .form-content table td {
+	 	color: black !important;
+	 	margin-bottom: 0.6em;
+
+	 }
+	 .row{
+	 	min-height: 550px;
+	 }
+
+	 #table{
+	 	  border-collapse: separate;
+  		  border-spacing: 0 15px; 
+	 }
+
+	</style>
+</head>
+<body>
+	<nav class="navbar fixed-top  navbar-dark">
+	  <a class="navbar-brand" href="#">GEVC</a>
+
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item dropdown">
+	       <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	         Schedule
+	        </a>
+	       	<!--<a class="nav-link " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	         <i class="fas fa-bars" style="font-size: 18px; margin-top: 3px;"></i>
+	         Home page
+	        </a>-->
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	         <a class="dropdown-item" href="index.html">Home</a>
+	          <!--<a class="dropdown-item" href="schedule.html">Schedule</a>-->
+	          <a class="dropdown-item" href="regulations.php">Rules & Regulations</a>
+	          <a class="dropdown-item" href="Teams_reg.php">Team Registration</a>
+	          <a class="dropdown-item" href="officials.php">Officials</a>
+	          <a class="dropdown-item" href="partners.html">Partners</a>
+	          <a class="dropdown-item" href="sponser.html">Software Sponsorship</a>
+	          <a class="dropdown-item" href="contact.php">Contact Us</a>
+	        </div>
+	      </li>
+	    </ul>
+	</nav>
+	<div class="px-0 container-fluid">
+		<div class=" top container-fluid justify-content-center">
+			<div class="main-content pt-4 text-center">
+				<img src="GEVC_logo.png" width="550px">
+				<h1 class="title text-center">
+				Schedule
+				</h1><span></span>
+				<!--<a href="#form" style="border:none;"><button class=" mt-4 btn btn btn-outline-success">Learn more</button></a>-->
+			</div>
+			<ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+		</div>
+		<div class="container-fluid  I2 py-4 form-div">
+			<div class="row mx-auto col-xl-9 px-0 col-lg-11  d-flex justify-content-center mt-3 mb-4 ">
+				<div class="col-6 left-form py-4" style="background-color: #231f20;">
+					<h1 class="text-center" style="color: white;">
+						Stage 1
+					</h1>
+					<hr style="border-color: rgb(255,255,255,0.2);">
+					<table class="table .table-spacing" id="table" style="color: white">
+					  <tbody class="schedule">
+					    <tr>
+					      <td scope="col">Release of official rules & regulations </td>
+					      <td class="text-right">01 Jan 2021</td>
+					    </tr>
+					    <tr>
+					    <td scope="col">Registration opens</td>
+					    <td class="text-right">01 Jan 2021</td>
+					    </tr>
+					    <tr>
+					    <td scope="col">Virtual conference 1</td>
+					    <td class="text-right">23 Jan 2021</td>
+					    </tr>
+					    <tr>
+					    <td scope="col">Registration closes</td>
+					    <td class="text-right">31 Jan 2021</td>
+					    </tr>
+					    <tr>
+					    	<td scope="col">Virtual conference 2</td>
+					    	<td class="text-right">13 Mar 2021</td>
+					    </tr>
+					    <tr>
+					    	<td>Stage 1 team updates</td>
+					    	<td class="text-right">24 Apr 2021</td>
+					    </tr>
+					    <tr>
+					    	<td>Final design / analysis / simulation report submission </td>
+					    	<td class="text-right">30 Jun 2021</td>
+					    </tr>
+					    <tr>
+					    	<td>Virtual GEVC Race</td>
+					    	<td class="text-right">31 Jul 2021</td>
+					    </tr>
+
+					 	<tr>
+					    	<td>GEVC Stage 1 awards announcement / ceremony</td>
+					    	<td class="text-right">28 Aug 2021</td>
+					    </tr>
+					  </tbody>
+					</table> 
+					<br>
+					<br>
+					<p style="color:white; font-size:1.1em;">NOTE <span style="font-size:1.2em; color:white;">:</span> You may view the full recording of the <a target="_blank" href=" https://youtu.be/GSr5c0r7niA">23 January 2021 meeting here</a>. 
+                    </p>
+
+				</div>
+				<div class="col-6 form-content pb-2 pt-4">
+					<h1 class="text-center" >
+						Stage 2 (tentative)
+					</h1>
+					<hr style="border-color: rgb(0,0,0,0.2);">
+					<table class="table" id="table" >
+					  <tbody class="schedule">
+					    <tr>
+					      <td scope="col">Release of updated official rules & regulations </td>
+					      <td class="text-right">15 Aug 2021</td>
+					    </tr>
+					    <tr>
+					    <td scope="col">Registration opens</td>
+					    <td class="text-right">15 Aug 2021</td>
+					    </tr>
+					    <tr>
+					    <td scope="col">Announcement of official Common Components</td>
+					    <td class="text-right">28 Aug 2021</td>
+					    </tr>
+					    <tr>
+					    <td scope="col">Virtual conference 3 </td>
+					    <td class="text-right">18 Sep 2021</td>
+					    </tr>
+					    <tr>
+					    	<td scope="col">Registration closes </td>
+					    	<td class="text-right">30 Sep 2021</td>
+					    </tr>
+					    <tr>
+					    	<td>Orders for official Common Components closed</td>
+					    	<td class="text-right">30 Sep 2021</td>
+					    </tr>
+					    <tr>
+					    	<td>Virtual conference 4  </td>
+					    	<td class="text-right">06 Nov 2021</td>
+					    </tr>
+					    <tr>
+					    	<td>Official Common Components delivered</td>
+					    	<td class="text-right">01 Dec 2021</td>
+					    </tr>
+
+					 	<tr>
+					    	<td>Virtual conference 5 </td>
+					    	<td class="text-right">15 Jan 2022</td>
+					    </tr>
+
+					    <tr>
+					    	<td>Stage 2 team updates</td>
+					    	<td class="text-right">12 Mar 2022</td>
+					    </tr>
+
+					    <tr>
+					    	<td>Final design and safety reports submission </td>
+					    	<td class="text-right">30 Apr 2022</td>
+					    </tr>
+					    <tr>
+					    	<td>Tech inspection / driver training / qualifying / track race</td>
+					    	<td class="text-right"> 9-16 Jul 2022</td>
+					    </tr>
+					  </tbody>
+					</table> 
+				</div>
+			</div>
+			<div class="footer text-center">
+			    <a style="" class="text-left" href="https://www.facebook.com/GlobalEEEGEVC" target="_blank"><img src="Images/facebook.png" width="50" height="50"></a>
+				<p class="m-0" style="color: white;">Copyright © 2020 – 2021 / Global Education Energy Environment (Global EEE).</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+.card{
+	box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    border-radius: 25px;
+}
+
+.image{
+	box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    padding:0px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    position: relative;
+
+}
+.card-image{
+    object-fit: cover;
+    height:180px;
+    width:180px;
+    border-radius:50%;
+
+}
+
+.card-title{
+	margin-top: 20px;
+	color: #5c822a;
+
+}
+.card-text{
+	margin-top: 10px;
+}
+.card-data{
+	color: #5c822a;
+
+}
+.slick-arrow{
+	position: absolute;
+	bottom: 0;
+	z-index: 99;
+	background-color: #fff;
+	border: none;
+	border-radius: 50px;
+	width: 100px
+	outline:none;
+}
+.slick-next{
+	left: 97%;
+}
+.item:focus{
+outline: none !important;
+}
+.card-text span{
+    font-size:1.2rem;
+}

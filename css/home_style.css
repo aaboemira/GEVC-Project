@@ -1,0 +1,26 @@
+
+.dropdown-menu{
+	background-color:#231f20;
+}
+.dropdown-menu a{
+	color: white;
+}
+.dropdown-menu{
+	position: absolute !important;
+}
+.left-form{
+color: white;
+}
+.form-content{
+	color: black;
+}
+p{
+	font-size: 1.1em;
+}
+.our_list >li::before{
+	content: "-";
+    margin-left: -10px;
+}
+.categories li{
+	font-size: 1.1em;
+}

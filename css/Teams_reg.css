@@ -1,0 +1,50 @@
+input{
+    border: 1px solid #ccc;
+    border-radius :4px;
+    font-size: 1.2rem;
+    margin: 0;
+    width: 100%;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    font-family: inherit;
+}
+
+input:focus{
+	outline: none;
+	box-shadow:0 0 4px 3px aliceblue;
+}
+::placeholder{
+	padding-left: 5px;
+}
+.team-address input{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.team-leader input{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.inpCity{
+	width: 50%;
+}
+.inpState{
+	width: 18%;
+}
+.inpPostal{
+	width: 30%;
+}
+.submit{
+	top:0px !important;
+}
+.left-form {
+	color: white;
+	font-size: 1.1em;
+}
+.size{
+	font-size: 1.1em
+}
+.btn-dark{
+	background-color: #231f20;
+}
+.btn-dark:hover{
+	background-color: black;
+}
